@@ -3,7 +3,7 @@ import { Container, GlobalStyle } from "./global";
 import { DarkTheme } from "./themes/dark";
 import { SocialMediaNav } from "./components/socialMediaNav";
 import { Navbar } from "./components/NavBar";
-// import { PurpleTheme } from "./themes/purple";
+import { Content } from "./components/Content";
 
 function App() {
   return (
@@ -12,9 +12,8 @@ function App() {
         <GlobalStyle />
         <Container>
           <Navbar />
-          <h1>Olá, Sou Daniel</h1>
+          <Content />
         </Container>
-
         <SocialMediaNav />
       </ThemeProvider>
     </>

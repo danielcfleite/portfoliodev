@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerNav = styled.nav`
-  width: 20vw;
+  width: 62.5rem;
   height: 100%;
   text-align: end;
   padding: 0.5rem 2rem;
