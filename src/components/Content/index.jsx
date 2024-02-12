@@ -1,4 +1,6 @@
+import { Colors } from "../Colors";
 import { ProjectsCards } from "../ProjectsCard";
+import { ResumeDownload } from "../Resume";
 import {
   ContentContainer,
   ContentHeader,
@@ -6,6 +8,7 @@ import {
   Projects,
   TagsContainer,
   TagsBar,
+  SectionTitle,
 } from "./styles";
 
 export const Content = () => {
@@ -23,13 +26,17 @@ export const Content = () => {
         </p>
       </ContentHeader>
       <Projects>
-        <h2>Alguns de meus projetos</h2>
+        <SectionTitle>Alguns de meus projetos</SectionTitle>
         <TagsContainer>
           <TagsBar>Front-End</TagsBar>
           <TagsBar>Back-End</TagsBar>
         </TagsContainer>
         <ProjectsCards />
+        <SectionTitle>Currículo</SectionTitle>
       </Projects>
+      <ResumeDownload />
+      <SectionTitle>Personalização</SectionTitle>
+      <Colors />
     </ContentContainer>
   );
 };

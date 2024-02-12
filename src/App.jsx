@@ -1,14 +1,15 @@
 import { ThemeProvider } from "styled-components";
 import { Container, GlobalStyle } from "./global";
-import { DarkTheme } from "./themes/dark";
 import { SocialMediaNav } from "./components/socialMediaNav";
 import { Navbar } from "./components/NavBar";
 import { Content } from "./components/Content";
+import { PurpleTheme } from "./themes/purple";
+// import { ThemeContext } from "styled-components";
 
 function App() {
   return (
     <>
-      <ThemeProvider theme={DarkTheme}>
+      <ThemeProvider theme={PurpleTheme}>
         <GlobalStyle />
         <Container>
           <Navbar />

@@ -87,6 +87,26 @@ export const ProjectsCards = () => {
           </VisitButton>
         </CardTextContainer>
       </ProjectsCard>
+      <ProjectsCard backend>
+        <CardTextContainer>
+          <CardTitle>Daily Diet API</CardTitle>
+          <ProjectDescription>
+            Back end para a aplicação Daily Diet, onde o usuário pode mandar
+            referência de refeições que fez de se estavam na sua dieta ou não
+          </ProjectDescription>
+          <TechnologiesContainer>
+            <TechnologiesBar>Node</TechnologiesBar>
+            <TechnologiesBar>Fastify</TechnologiesBar>
+            <TechnologiesBar>RegEx</TechnologiesBar>
+          </TechnologiesContainer>
+          <VisitButton
+            href="https://github.com/danielcfleite/ignite-daily-diet-api"
+            target="_blank"
+          >
+            Visite <IoLogoVercel />
+          </VisitButton>
+        </CardTextContainer>
+      </ProjectsCard>
     </ProjectsCardContainer>
   );
 };

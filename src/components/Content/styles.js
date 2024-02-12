@@ -11,7 +11,6 @@ export const ContentHeader = styled.div`
 `;
 
 export const Projects = styled.div`
-  margin-top: 3rem;
   display: flex;
   flex-direction: column;
 `;
@@ -44,4 +43,10 @@ export const TagsBar = styled.p`
     filter: brightness(1.2);
     transform: scale(1.05);
   }
+`;
+
+export const SectionTitle = styled.h2`
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 `;

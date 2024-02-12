@@ -15,7 +15,12 @@ export const ProjectsCard = styled.div`
   background-color: ${(props) => props.theme.dark};
   border-radius: 15px;
   width: 100%;
-  height: 34rem;
+  height: ${(props) => (props.backend ? "25rem" : " 34rem")};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   transition: 0.3s ease-in-out;
 `;
 
