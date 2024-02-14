@@ -1,19 +1,18 @@
+import { useDispatch } from "react-redux";
 import { ColorCard, ColorsContainer } from "./styles";
-// import { PurpleTheme } from "../../themes/purple";
-// import { DarkTheme } from "../../themes/dark";
-// import { DarkGreen } from "../../themes/darkGreen";
-// import { useContext } from "react";
+import { setTheme } from "../../store/reducers/theme";
 
 export const Colors = () => {
+  const dispatch = useDispatch();
   return (
     <ColorsContainer>
-      <ColorCard color={"dark"}>
+      <ColorCard color={"dark"} onClick={() => dispatch(setTheme("dark"))}>
         <h3>Dark</h3>
       </ColorCard>
-      <ColorCard color={"green"}>
+      <ColorCard color={"green"} onClick={() => dispatch(setTheme("green"))}>
         <h3>Green Dark</h3>
       </ColorCard>
-      <ColorCard color={"purple"}>
+      <ColorCard color={"purple"} onClick={() => dispatch(setTheme("purple"))}>
         <h3>Purple</h3>
       </ColorCard>
     </ColorsContainer>

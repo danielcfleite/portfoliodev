@@ -70,7 +70,10 @@ export const VisitButton = styled.a`
   margin-bottom: 1rem;
   padding: 0.2rem 1rem;
   background-color: ${(props) => props.theme.medium};
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 7rem;
   border-radius: 15px;
   color: #fbfada;
   text-decoration: none;

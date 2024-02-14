@@ -13,7 +13,7 @@ import {
 import LofiTodoPrint from "../../assets/lofi-todo-print.png";
 import LinkItPrint from "../../assets/linkit-print.png";
 import LojaDeJogosPrint from "../../assets/loja-de-jogos-print.png";
-import { IoLogoVercel } from "react-icons/io5";
+import { IoLogoGithub, IoLogoVercel } from "react-icons/io5";
 
 export const ProjectsCards = () => {
   return (
@@ -103,7 +103,7 @@ export const ProjectsCards = () => {
             href="https://github.com/danielcfleite/ignite-daily-diet-api"
             target="_blank"
           >
-            Visite <IoLogoVercel />
+            Visite <IoLogoGithub />
           </VisitButton>
         </CardTextContainer>
       </ProjectsCard>
