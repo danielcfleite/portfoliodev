@@ -24,4 +24,8 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1650px;
   margin: 0 auto;
+
+  @media (max-width: 780px) {
+    flex-direction: column;
+  }
 `;

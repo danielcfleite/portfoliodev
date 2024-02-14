@@ -8,6 +8,14 @@ export const ProjectsCardContainer = styled.div`
   margin-top: 2rem;
   column-gap: 2rem;
   row-gap: 2rem;
+
+  @media (max-width: 1400px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ProjectsCard = styled.div`
@@ -21,7 +29,13 @@ export const ProjectsCard = styled.div`
   align-items: center;
   justify-content: center;
 
-  transition: 0.3s ease-in-out;
+  @media (max-width: 1400px) {
+    height: 34rem;
+  }
+
+  @media (max-width: 1100px) {
+    height: 37rem;
+  }
 `;
 
 export const CardTextContainer = styled.div`
@@ -39,6 +53,10 @@ export const CardTitle = styled.h3`
 
 export const ProjectDescription = styled.p`
   height: 5rem;
+
+  @media (max-width: 1400px) {
+    height: 6rem;
+  }
 `;
 
 export const CardImage = styled.img`

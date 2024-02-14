@@ -22,6 +22,10 @@ export const SocialMediaNavContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media (max-width: 780px) {
+    display: none;
+  }
 `;
 
 export const Light = styled.div`
@@ -44,7 +48,7 @@ export const SocialMediaLink = styled.a`
   margin-top: 15px;
   cursor: pointer;
   transition: 0.2s;
-
+  color: ${(props) => props.theme.light};
   &:hover {
     transform: scale(1.06);
     filter: brightness(1.2);

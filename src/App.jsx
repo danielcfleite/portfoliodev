@@ -6,11 +6,13 @@
 import { Provider } from "react-redux";
 import { store } from "./store";
 import { AppContent } from "./components/AppContent";
+import ScrollManager from "./components/ScrollManager/ScrollManager";
 
 function App() {
   return (
     <>
       <Provider store={store}>
+        <ScrollManager />
         <AppContent />
       </Provider>
     </>

@@ -1,30 +1,30 @@
-import { SocialMediaLink, SocialMediaNavContainer } from "./styles";
+import { SocialMediaMobile, SocialMediaMobileLink } from "./styles";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-export const SocialMediaNav = () => {
+export const SocialMediaForMobile = () => {
   return (
     <>
-      <SocialMediaNavContainer>
-        <SocialMediaLink
+      <SocialMediaMobile>
+        <SocialMediaMobileLink
           href="https://www.linkedin.com/in/daniel-carvalho-de-freitas"
           target="_blank"
         >
           <FaLinkedin size={30} />
-        </SocialMediaLink>
-        <SocialMediaLink
+        </SocialMediaMobileLink>
+        <SocialMediaMobileLink
           href="https://github.com/danielcfleite"
           target="_blank"
         >
           <FaGithub size={30} />
-        </SocialMediaLink>
-        <SocialMediaLink
+        </SocialMediaMobileLink>
+        <SocialMediaMobileLink
           href="mailto:danielcfreitasleite@gmail.com"
           target="_blank"
         >
           <MdEmail size={30} />
-        </SocialMediaLink>
-      </SocialMediaNavContainer>
+        </SocialMediaMobileLink>
+      </SocialMediaMobile>
     </>
   );
 };

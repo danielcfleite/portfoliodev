@@ -2,12 +2,17 @@ import styled from "styled-components";
 
 export const ContainerNav = styled.nav`
   width: 62.5rem;
-  height: 100%;
   text-align: end;
   padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   border-right: 1px solid rgba(255, 255, 255, 0.07);
+  position: sticky;
+  top: 1rem;
+
+  @media (max-width: 780px) {
+    display: none;
+  }
 `;
 
 export const NavLink = styled.a`

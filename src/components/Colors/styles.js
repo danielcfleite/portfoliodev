@@ -34,4 +34,12 @@ export const ColorsContainer = styled.div`
   margin-top: 2rem;
   column-gap: 2rem;
   row-gap: 2rem;
+
+  @media (max-width: 1400px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
 `;

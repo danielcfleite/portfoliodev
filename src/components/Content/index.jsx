@@ -1,6 +1,7 @@
 import { Colors } from "../Colors";
 import { ProjectsCards } from "../ProjectsCard";
 import { ResumeDownload } from "../Resume";
+import { SocialMediaForMobile } from "../SocialMediaMobile";
 import {
   ContentContainer,
   ContentHeader,
@@ -16,8 +17,9 @@ export const Content = () => {
   return (
     <ContentContainer>
       <PresentationBar>{tag}</PresentationBar>
-      <ContentHeader>
+      <ContentHeader id="about">
         <h1>Daniel Carvalho</h1>
+        <SocialMediaForMobile />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
           incidunt in asperiores quas velit fugit voluptates, maiores, facere
@@ -25,17 +27,17 @@ export const Content = () => {
           fugiat officia.
         </p>
       </ContentHeader>
-      <Projects>
+      <Projects id="projects">
         <SectionTitle>Alguns de meus projetos</SectionTitle>
         <TagsContainer>
           <TagsBar>Front-End</TagsBar>
           <TagsBar>Back-End</TagsBar>
         </TagsContainer>
         <ProjectsCards />
-        <SectionTitle>Currículo</SectionTitle>
+        <SectionTitle id="resume">Currículo</SectionTitle>
       </Projects>
       <ResumeDownload />
-      <SectionTitle>Personalização</SectionTitle>
+      <SectionTitle id="colors">Personalização</SectionTitle>
       <Colors />
     </ContentContainer>
   );
