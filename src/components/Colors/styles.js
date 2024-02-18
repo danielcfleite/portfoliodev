@@ -25,6 +25,10 @@ export const ColorCard = styled.div`
     filter: brightness(1.2);
     transform: scale(1.05);
   }
+
+  @media (max-width: 1100px) {
+    height: 20vh;
+  }
 `;
 
 export const ColorsContainer = styled.div`
