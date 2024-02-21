@@ -52,10 +52,11 @@ export const CardTitle = styled.h3`
 `;
 
 export const ProjectDescription = styled.p`
-  height: 5rem;
+  height: 6rem;
+  display: block;
 
   @media (max-width: 1400px) {
-    height: 6rem;
+    height: 9rem;
   }
 `;
 
@@ -71,6 +72,11 @@ export const TechnologiesBar = styled(TagsBar)`
   background-color: ${(props) => props.theme.medium};
   display: inline-block;
   height: auto;
+`;
+
+export const DesktopOrResponsive = styled(TechnologiesBar)`
+  display: block;
+  width: 80%;
 `;
 
 export const TechnologiesContainer = styled.div`

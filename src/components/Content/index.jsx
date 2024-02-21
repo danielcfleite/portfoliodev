@@ -7,8 +7,8 @@ import {
   ContentHeader,
   PresentationBar,
   Projects,
-  TagsContainer,
-  TagsBar,
+  // TagsContainer,
+  // TagsBar,
   SectionTitle,
 } from "./styles";
 
@@ -21,18 +21,21 @@ export const Content = () => {
         <h1>Daniel Carvalho</h1>
         <SocialMediaForMobile />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
-          incidunt in asperiores quas velit fugit voluptates, maiores, facere
-          suscipit qui quo provident debitis natus est. Animi consectetur fuga
-          fugiat officia.
+          Desde a minha formação como designer, descobri uma paixão por
+          construir experiências digitais criativas que gerem engajamento. Em
+          uma jornada constante para aprender e compartilhar conhecimentos de
+          programação, atualmente estou focando no desenvolvimento front-end
+          para poder criar experiências cada vez melhores. Acredito fortemente
+          no crescimento através do desafio, por isso estou sempre aberto a
+          novos aprendizados e ferramentas.
         </p>
       </ContentHeader>
       <Projects id="projects">
         <SectionTitle>Alguns de meus projetos</SectionTitle>
-        <TagsContainer>
+        {/* <TagsContainer>
           <TagsBar>Front-End</TagsBar>
           <TagsBar>Back-End</TagsBar>
-        </TagsContainer>
+        </TagsContainer> */}
         <ProjectsCards />
         <SectionTitle id="resume">Currículo</SectionTitle>
       </Projects>

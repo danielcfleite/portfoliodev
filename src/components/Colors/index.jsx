@@ -10,7 +10,7 @@ export const Colors = () => {
         <h3>Dark</h3>
       </ColorCard>
       <ColorCard color={"green"} onClick={() => dispatch(setTheme("green"))}>
-        <h3>Green Dark</h3>
+        <h3>Green</h3>
       </ColorCard>
       <ColorCard color={"purple"} onClick={() => dispatch(setTheme("purple"))}>
         <h3>Purple</h3>

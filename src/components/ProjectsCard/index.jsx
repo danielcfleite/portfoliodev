@@ -21,11 +21,11 @@ export const ProjectsCards = () => {
       <ProjectsCard>
         <CardImage src={LofiTodoPrint} />
         <CardTextContainer>
-          <CardTitle>Lofi-Todo</CardTitle>
+          <CardTitle>Lofi | To - do</CardTitle>
           <ProjectDescription>
-            ⦁ Lofi - Todo é uma plataforma para tarefas com a filosofia de ser
-            um ambiente confortável e relaxante, com músicas e um grau de
-            personalização. <br />
+            ⦁ Lofi - Todo é uma plataforma para listar e gerenciar cumprimento
+            de tarefas com a filosofia de ser um ambiente confortável e
+            relaxante, com músicas e um grau de personalização. <br />
           </ProjectDescription>
           <TechnologiesContainer>
             <TechnologiesBar>React</TechnologiesBar>
@@ -43,9 +43,9 @@ export const ProjectsCards = () => {
       <ProjectsCard>
         <CardImage src={LinkItPrint} />
         <CardTextContainer>
-          <CardTitle>LinkIT - Contatos</CardTitle>
+          <CardTitle>LinkIt! - Contatos</CardTitle>
           <ProjectDescription>
-            ⦁ LinkIt! É uma plataforma para contatos Desktop, onde você pode
+            ⦁ LinkIt! é uma plataforma para contatos Desktop, onde você pode
             salvar números e separá-los por categorias
             <br />
           </ProjectDescription>

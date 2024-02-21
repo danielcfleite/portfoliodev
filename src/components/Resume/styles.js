@@ -12,6 +12,8 @@ export const Resume = styled.a`
   cursor: pointer;
   transition: 0.2s ease-in-out;
   gap: 1rem;
+  color: ${(props) => props.theme.light};
+  text-decoration: none;
 
   &:hover {
     filter: brightness(1.2);
