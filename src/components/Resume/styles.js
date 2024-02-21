@@ -15,6 +15,10 @@ export const Resume = styled.a`
   color: ${(props) => props.theme.light};
   text-decoration: none;
 
+  @media (max-width: 430px) {
+    width: 90%;
+  }
+
   &:hover {
     filter: brightness(1.2);
     transform: scale(1.05);

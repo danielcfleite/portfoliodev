@@ -77,7 +77,6 @@ export const ProjectsCards = () => {
             <TechnologiesBar>HTML</TechnologiesBar>
             <TechnologiesBar>Bootstrap</TechnologiesBar>
             <TechnologiesBar>Jquery</TechnologiesBar>
-            <TechnologiesBar>Rest API</TechnologiesBar>
             <TechnologiesBar>Responsivo</TechnologiesBar>
           </TechnologiesContainer>
           <VisitButton
