@@ -23,9 +23,10 @@ export const ProjectsCards = () => {
         <CardTextContainer>
           <CardTitle>Lofi | To - do</CardTitle>
           <ProjectDescription>
-            ⦁ Lofi - Todo é uma plataforma para listar e gerenciar cumprimento
-            de tarefas com a filosofia de ser um ambiente confortável e
-            relaxante, com músicas e um grau de personalização. <br />
+            ⦁ Lofi | To - do é uma plataforma Desktop para listar e gerenciar
+            cumprimento de tarefas com a filosofia de ser um ambiente
+            confortável e relaxante, com músicas e um grau de personalização.{" "}
+            <br />
           </ProjectDescription>
           <TechnologiesContainer>
             <TechnologiesBar>React</TechnologiesBar>
@@ -92,7 +93,7 @@ export const ProjectsCards = () => {
           <CardTitle>Daily Diet API</CardTitle>
           <ProjectDescription>
             Back end para a aplicação Daily Diet, onde o usuário pode mandar
-            referência de refeições que fez de se estavam na sua dieta ou não
+            referência de refeições que fez e se estavam na sua dieta ou não.
           </ProjectDescription>
           <TechnologiesContainer>
             <TechnologiesBar>Node</TechnologiesBar>
