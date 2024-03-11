@@ -46,20 +46,17 @@ export const ProjectsCards = () => {
         <CardTextContainer>
           <CardTitle>LinkIt! - Contatos</CardTitle>
           <ProjectDescription>
-            ⦁ LinkIt! é uma plataforma para contatos Desktop, onde você pode
-            salvar números e separá-los por categorias
+            ⦁ LinkIt! é uma plataforma para contatos, onde você pode salvar
+            números e separá-los por categorias/grupos.
             <br />
           </ProjectDescription>
           <TechnologiesContainer>
-            <TechnologiesBar>HTML</TechnologiesBar>
-            <TechnologiesBar>CSS</TechnologiesBar>
-            <TechnologiesBar>Jquery</TechnologiesBar>
-            <TechnologiesBar>Desktop</TechnologiesBar>
+            <TechnologiesBar>React</TechnologiesBar>
+            <TechnologiesBar>Typescript</TechnologiesBar>
+            <TechnologiesBar>Redux</TechnologiesBar>
+            <TechnologiesBar>Styled Components</TechnologiesBar>
           </TechnologiesContainer>
-          <VisitButton
-            href="https://projeto-agenda-de-contatos-linkit-ebac.vercel.app/"
-            target="_blank"
-          >
+          <VisitButton href="https://link-it-react.vercel.app/" target="_blank">
             Visite <IoLogoVercel />
           </VisitButton>
         </CardTextContainer>

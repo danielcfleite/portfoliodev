@@ -70,8 +70,10 @@ export const CardImage = styled.img`
 
 export const TechnologiesBar = styled(TagsBar)`
   background-color: ${(props) => props.theme.medium};
-  display: inline-block;
-  height: auto;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const DesktopOrResponsive = styled(TechnologiesBar)`
