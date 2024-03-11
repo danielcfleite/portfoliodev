@@ -62,7 +62,7 @@ export const ProjectDescription = styled.p`
 
 export const CardImage = styled.img`
   width: 100%;
-  height: 10rem;
+  height: 9rem;
   object-fit: cover;
   border-radius: 15px;
   margin-bottom: 1rem;
