@@ -5,7 +5,7 @@ export const ResumeDownload = () => {
   return (
     <Resume
       target="_blank"
-      href="https://drive.google.com/file/d/1l0BX3mhIl9UUJpByV7blHJb_CMUcDkqO/view?usp=sharing"
+      href="https://drive.google.com/file/d/12BCB1SC9mCQxUquAc_VJ5AeEXHW_JVJk/view?usp=sharing"
     >
       Download Currículo <FaFileDownload />
     </Resume>
